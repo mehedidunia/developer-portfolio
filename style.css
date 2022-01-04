@@ -1,0 +1,69 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1
+{
+    font-size: 50px;
+}
+.orange-color
+{
+    color: orange;
+}
+.flexible-container{display: flex;
+margin-bottom: 150px;}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+.hire-button
+{
+text-decoration: none;
+background-image: linear-gradient(orange,tomato);
+padding: 10px 40px;
+color: white;
+font-weight: 600;
+border-radius: 10px;
+}
+.top-banner
+{
+background-image:url(images/top-banner.png) ;
+background-repeat: no-repeat ;
+}
+.dream
+{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+}
+.experiance
+{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+.experiance-item
+{
+    width: 40%;
+box-shadow: 10px 10px 30px grey;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 20px;
+border-radius: 10px;
+}
+#web-dev-experiance{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    }
+    #full-stak-developer{
+        border-left: 7px solid;
+        border-image: linear-gradient(tomato,salmon);
+        border-image-slice: 1;
+        }
+footer p{
+text-align: center;
+        }
